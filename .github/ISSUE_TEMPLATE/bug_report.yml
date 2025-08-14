@@ -1,0 +1,165 @@
+name: 🐛 Bug Report
+description: Create a bug report to help us improve
+title: "[BUG] "
+labels: ["bug", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report
+        
+        Thank you for taking the time to report a bug! Please fill out the form below to help us understand and reproduce the issue.
+        
+        ---
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission Checklist
+      description: Please ensure you've completed these steps before submitting
+      options:
+        - label: I have searched for existing issues and this is not a duplicate
+          required: true
+        - label: I have read the [Contributing Guidelines](../CONTRIBUTING.md)
+          required: true
+        - label: I have provided all the required information below
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of the software are you using?
+      placeholder: "e.g., v1.2.3, latest, commit hash"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgent is this bug?
+      options:
+        - Low - Minor issue that doesn't affect functionality
+        - Medium - Affects functionality but workaround exists
+        - High - Significantly affects functionality, no workaround
+        - Critical - Blocks core functionality or causes data loss
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Describe the bug in detail...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe what you expected to happen...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe what actually happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide detailed steps to reproduce the issue
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: Please provide details about your environment
+      placeholder: |
+        - OS: [e.g., Windows 11, macOS 12.0, Ubuntu 20.04]
+        - Browser: [e.g., Chrome 96, Firefox 95, Safari 15]
+        - Framework Version: [e.g., .NET 6.0, Node.js 16.0]
+        - Additional tools: [e.g., Docker 20.10, VS Code 1.60]
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs
+      description: Please paste any relevant error messages or logs
+      placeholder: Paste error logs here...
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: If applicable, add screenshots or videos to help explain the problem
+      placeholder: Drag and drop images here or paste image URLs...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any additional information that might be helpful...
+
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact Assessment
+      description: How does this bug affect you?
+      options:
+        - label: Blocks me from using the application
+        - label: Causes data loss or corruption
+        - label: Affects performance significantly
+        - label: Minor inconvenience but doesn't block usage
+        - label: Cosmetic issue only
+
+  - type: dropdown
+    id: regression
+    attributes:
+      label: Is this a regression?
+      description: Did this work in a previous version?
+      options:
+        - "No - This never worked"
+        - "Yes - This worked in a previous version"
+        - "Unknown - I'm not sure"
+
+  - type: input
+    id: regression_version
+    attributes:
+      label: Last Working Version (if regression)
+      description: If this is a regression, what was the last version where this worked?
+      placeholder: "e.g., v1.1.0"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ## 🙏 Thank You!
+        
+        Thank you for taking the time to report this issue. We'll review it as soon as possible and get back to you with any questions or updates.
+        
+        **Need immediate help?** Join our discussions or contact us directly through the methods listed in our README.

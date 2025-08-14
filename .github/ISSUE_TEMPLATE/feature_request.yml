@@ -1,0 +1,234 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement
+title: "[FEATURE] "
+labels: ["enhancement", "feature-request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✨ Feature Request
+        
+        Thank you for suggesting a new feature! Your ideas help make this project better for everyone.
+        
+        ---
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission Checklist
+      description: Please ensure you've completed these steps before submitting
+      options:
+        - label: I have searched for existing feature requests and this is not a duplicate
+          required: true
+        - label: I have read the [Contributing Guidelines](../CONTRIBUTING.md)
+          required: true
+        - label: This feature aligns with the project's goals and scope
+          required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Feature Type
+      description: What type of feature are you requesting?
+      options:
+        - New functionality
+        - Enhancement to existing feature
+        - Performance improvement
+        - Developer experience improvement
+        - Documentation improvement
+        - API addition or change
+        - Configuration option
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve my workflow
+        - High - Important for my use case
+        - Critical - Essential for my needs
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: A brief, clear summary of the feature you're requesting
+      placeholder: "In one or two sentences, what feature do you want?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? What's the current pain point?
+      placeholder: |
+        Describe the problem or limitation you're experiencing:
+        - What are you trying to achieve?
+        - What's currently preventing you from achieving it?
+        - How does this impact your workflow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your ideal solution to the problem
+      placeholder: |
+        Describe your proposed solution:
+        - How should this feature work?
+        - What should the user experience be like?
+        - How should it integrate with existing functionality?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: What other approaches have you considered?
+      placeholder: |
+        Describe alternative solutions you've considered:
+        - Other ways to solve this problem
+        - Workarounds you're currently using
+        - Why these alternatives aren't sufficient
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: Describe specific scenarios where this feature would be useful
+      placeholder: |
+        Provide concrete examples of how this feature would be used:
+        
+        **Use Case 1:**
+        - User type: [e.g., Developer, Admin, End User]
+        - Scenario: [Describe the situation]
+        - Expected outcome: [What should happen]
+        
+        **Use Case 2:**
+        - User type: 
+        - Scenario: 
+        - Expected outcome:
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups or Examples
+      description: Share any mockups, screenshots, or examples that illustrate your idea
+      placeholder: |
+        - Drag and drop images here
+        - Paste URLs to mockups or examples
+        - Link to similar features in other tools
+
+  - type: checkboxes
+    id: complexity
+    attributes:
+      label: Implementation Complexity
+      description: How complex do you think this feature might be to implement?
+      options:
+        - label: Simple - Minor change or addition
+        - label: Moderate - Requires some development work
+        - label: Complex - Significant development effort
+        - label: Major - Requires architectural changes
+        - label: Unknown - I'm not sure about the complexity
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation Ideas
+      description: If you have technical ideas about how this could be implemented, share them here
+      placeholder: |
+        Share any technical thoughts:
+        - Suggested approaches or technologies
+        - API changes that might be needed
+        - Integration points to consider
+        - Performance considerations
+
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Potential Impact
+      description: Who would benefit from this feature?
+      options:
+        - label: All users would benefit
+        - label: Most users would benefit
+        - label: Specific user groups would benefit
+        - label: Advanced users would benefit
+        - label: Developers/contributors would benefit
+
+  - type: dropdown
+    id: breaking
+    attributes:
+      label: Breaking Changes
+      description: Would this feature require breaking changes?
+      options:
+        - "No - Backward compatible"
+        - "Minor - Small breaking changes acceptable"
+        - "Major - Significant breaking changes required"
+        - "Unknown - Not sure about compatibility impact"
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Available Resources
+      description: Are you able to help implement this feature?
+      placeholder: |
+        Let us know how you might be able to contribute:
+        - Are you willing to implement this feature?
+        - Can you help with testing?
+        - Can you provide ongoing feedback during development?
+        - Do you have domain expertise that could help?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, links, or information about the feature request
+      placeholder: |
+        Any additional information:
+        - Links to relevant documentation or discussions
+        - Related issues or features
+        - Timeline considerations
+        - Business justification
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Understanding
+      description: Please confirm your understanding
+      options:
+        - label: I understand that feature requests are prioritized based on community needs and maintainer capacity
+          required: true
+        - label: I understand that not all feature requests will be implemented
+          required: true
+        - label: I'm willing to participate in discussions about this feature
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ## 🚀 What's Next?
+        
+        Thank you for your feature request! Here's what happens next:
+        
+        1. **Triage**: We'll review and label your request
+        2. **Community Feedback**: Others can comment and show support
+        3. **Evaluation**: We'll assess feasibility and priority
+        4. **Implementation**: If approved, we'll work on implementation
+        
+        **Want to speed things up?** Consider implementing the feature yourself and submitting a pull request!
