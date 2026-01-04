@@ -61,12 +61,12 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TyKonKet&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TyKonKet&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=TyKonKet&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=TyKonKet&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TyKonKet&theme=github-dark-blue&hide_border=true&background=0d1117" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=TyKonKet&theme=github-dark-blue&hide_border=true&background=0d1117" alt="GitHub Streak Stats" />
 </div>
 
 ## 🏆 GitHub Trophies
@@ -86,7 +86,7 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TyKonKet&repo=BarcodeGenerator&theme=github_dark&hide_border=true&bg_color=0d1117)](https://github.com/TyKonKet/BarcodeGenerator)
+[![Readme Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TyKonKet&repo=BarcodeGenerator&theme=github_dark&hide_border=true&bg_color=0d1117)](https://github.com/TyKonKet/BarcodeGenerator)
 
 *More awesome projects coming soon! 🚀*
 
@@ -110,8 +110,8 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=50&fontColor=fff&animation=twinkling)
 
 <p>
-  <img src="https://img.shields.io/badge/Made_with-❤️-red?style=for-the-badge&logoColor=white" alt="Made with love" />
-  <img src="https://img.shields.io/badge/Powered_by-☕-brown?style=for-the-badge&logoColor=white" alt="Powered by coffee" />
+  <img src="https://img.shields.io/badge/Made_with-%E2%9D%A4-red?style=for-the-badge&logoColor=white" alt="Made with love" />
+  <img src="https://img.shields.io/badge/Powered_by-%E2%98%95-brown?style=for-the-badge&logoColor=white" alt="Powered by coffee" />
   <img src="https://img.shields.io/badge/Built_with-.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt="Built with .NET" />
 </p>
 
