@@ -230,9 +230,9 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 <div align="center">
   
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=36&fontColor=ffffff&fontAlignY=70&animation=twinkling" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=36&fontColor=0b0f19&fontAlignY=70&animation=twinkling" />
-  <img alt="Wave" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=36&fontColor=ffffff&fontAlignY=70&animation=twinkling" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&text=Thanks%20for%20visiting!&fontSize=34&fontColor=ffffff&stroke=0b0f19&strokeWidth=2&fontAlignY=55" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=120&section=header&text=Thanks%20for%20visiting!&fontSize=34&fontColor=0b0f19&stroke=ffffff&strokeWidth=2&fontAlignY=55" />
+  <img alt="Wave" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&text=Thanks%20for%20visiting!&fontSize=34&fontColor=ffffff&stroke=0b0f19&strokeWidth=2&fontAlignY=55" />
 </picture>
 
 <p>
