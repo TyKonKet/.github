@@ -171,12 +171,6 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
   </picture>
 </div>
 
-<div align="center">
-  <picture>
-    <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TyKonKet&theme=transparent" />
-  </picture>
-</div>
-
 ## 🏆 GitHub Trophies
 
 <div align="center">
