@@ -203,6 +203,13 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
     <img alt="Readme Card" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TyKonKet&repo=BarcodeGenerator&theme=github_dark&hide_border=true&border_color=00000000&bg_color=00000000&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" />
   </picture>
 </a>
+<a href="https://github.com/TyKonKet/ModbusLab">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TyKonKet&repo=ModbusLab&theme=github_dark&hide_border=true&border_color=00000000&bg_color=00000000&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TyKonKet&repo=ModbusLab&theme=default&hide_border=true&border_color=00000000&bg_color=00000000&title_color=0969DA&text_color=24292F&icon_color=0969DA" />
+    <img alt="Readme Card" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TyKonKet&repo=ModbusLab&theme=github_dark&hide_border=true&border_color=00000000&bg_color=00000000&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" />
+  </picture>
+</a>
 
 *More awesome projects coming soon! 🚀*
 
